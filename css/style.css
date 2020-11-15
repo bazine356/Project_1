@@ -1,0 +1,80 @@
+/* Initial page banner styles */
+
+.hero {
+    background: rgb(170,1,1);
+    background: linear-gradient(23deg, rgba(170,1,1,1) 0%, rgba(250,98,184,1) 100%);
+}
+
+.hero-body {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 100;
+    font-size: 80px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #666666;
+}
+
+
+.subtitle {
+    font-size: 26px;
+    line-height: 2.5;
+}
+
+#year-input {
+    width: 70%;
+}
+    
+.submitBtn {
+    display: block;
+    width: 100%;
+}
+    
+/* Results page stylings */
+.navbar{
+    background: rgb(170,1,1);
+    background: linear-gradient(23deg, rgba(170,1,1,1) 0%, rgba(250,98,184,1) 100%); 
+}
+
+.navbar-item{
+    color: white; 
+    font-weight: bold; 
+} 
+
+.results-container {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+li {
+    padding-top: 5px;
+}
+
+.btns {
+    padding-top: 10px;
+}
+
+a.navbar-item:hover {
+    color:pink;
+}
+
+.progress-bar {
+    padding-top: 8px;
+    width: 70%;
+}
+
+.best-match {
+    padding: 12px;
+    border: 2px solid hsl(348, 100%, 61%);
+    border-radius: 5px;
+}
+
+#matches {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 200;
+    color: hsl(348, 100%, 61%);
+}
